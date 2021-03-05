@@ -44,6 +44,7 @@ class App < Sinatra::Base
       number2_i = @number2.to_i
       if @operation == "add"
         answer = number1_i + number2_i
+        binding.pry
         elsif 
         @operation == "subtract"
         answer = number1_i - number2_i
