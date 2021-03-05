@@ -43,6 +43,8 @@ class App < Sinatra::Base
       number1_i = @number1.to_i
       number2_i = @number2.to_i
       change = number1_i."#{@operation}"(number2_i)
+      answer = change.to_s 
+      answer
     end 
     
   
