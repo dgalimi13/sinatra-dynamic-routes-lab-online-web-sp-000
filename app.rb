@@ -54,6 +54,7 @@ class App < Sinatra::Base
         @operation == "multiply"
         number1_i * number2_i
       end 
+    
     end 
     
   
