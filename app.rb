@@ -55,7 +55,8 @@ class App < Sinatra::Base
         @operation == "multiply"
         answer = number1_i * number2_i
       end
-      answer
+      string = answer.to_s
+      string
     end 
     
   
