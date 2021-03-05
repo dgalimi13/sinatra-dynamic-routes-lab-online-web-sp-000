@@ -43,18 +43,18 @@ class App < Sinatra::Base
       number1_i = @number1.to_i
       number2_i = @number2.to_i
       if @operation == "add"
-        number1_i + number2_i
+        answer = number1_i + number2_i
         elsif 
         @operation == "subtract"
-        number1_i - number2_i
+        answer = number1_i - number2_i
         elsif 
         @operation == "divide"
-        number1_i / number2_i
+        answer = number1_i / number2_i
         elsif 
         @operation == "multiply"
-        number1_i * number2_i
-      end 
-    
+        answer = number1_i * number2_i
+      end
+      answer
     end 
     
   
