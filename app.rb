@@ -30,6 +30,7 @@ class App < Sinatra::Base
       @word1 = params[:word1]
       @word1 = params[:word1]
       @word1 = params[:word1]
+      
     end 
   
   
